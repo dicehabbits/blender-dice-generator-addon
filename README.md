@@ -4,7 +4,7 @@ This repository contains an addon to create different dice with faces 4, 6, 8, 1
 ![Dice Example](documents/images/dice_demo.gif)
 
 
-The add on automates the process described in a youtube video created by someone else. Link to the video under Usage section
+The add on automates the process described in a youtube video created by someone else. Link to the video under the Usage section
 
 # Installation
 
@@ -44,8 +44,10 @@ Select the object you want to stamp for each side of the face.
 # Issues
 For immediate suppport
 join discord and post in #blender-dice-generator-addon-support
-For feature request create an issue or discuss on discord. 
+For feature request create an issue or discuss on discord: <br/>
+[#dice-support](https://discord.gg/X7faVt8)
 
 # Contribute
 This is a side project of mine so development will be slow.
-You can contribute and discuss about this plugin on discord:
+You can contribute and discuss about this plugin on discord: <br/>
+[#dice-develop](https://discord.gg/X7faVt8)
