@@ -30,7 +30,7 @@ The add on automates the process described in a youtube video created by someone
 
 # Usuage
 This plugin automates some process shown in this video. Disclaimer, I did not make the video:
-[![youtube video](http://img.youtube.com/vi/nCowrvfOr3Q/0.jpg)](http://www.youtube.com/watch?v=nCowrvfOr3Q "Design Your Own Custom Dice for Free | Blender Tutorial | DIY with Cly Ep. 21")
+[![youtube video](documents/images/video.png)](http://www.youtube.com/watch?v=nCowrvfOr3Q "Design Your Own Custom Dice for Free | Blender Tutorial | DIY with Cly Ep. 21")
 
 The plugin automates the dice creation and stamping process.<br/>
 ![Dice Example](documents/images/panel.png)<br/>
