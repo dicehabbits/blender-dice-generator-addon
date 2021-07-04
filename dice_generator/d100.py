@@ -22,7 +22,7 @@ class D100():
 
         bpy.context.object.modifiers["Boolean"].object = bpy.context.scene.objects[obj1]
         bpy.context.object.modifiers["Boolean"].operation = 'INTERSECT'
-        bpy.ops.object.modifier_apply(apply_as='DATA', modifier="Boolean")
+        bpy.ops.object.modifier_apply(modifier="Boolean")
         bpy.ops.object.select_all(action='DESELECT')
         bpy.data.objects[obj1].select_set(True)
         bpy.ops.object.delete()
@@ -82,4 +82,4 @@ class D100():
     def stamp_number(self, stamp_number):
         bpy.ops.object.modifier_add(type='BOOLEAN')
         bpy.context.object.modifiers["Boolean"].object = self.face_objects[f'number{stamp_number}']
-        bpy.ops.object.modifier_apply(apply_as='DATA', modifier="Boolean")
+        bpy.ops.object.modifier_apply(modifier="Boolean")
