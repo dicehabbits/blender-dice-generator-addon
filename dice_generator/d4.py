@@ -72,4 +72,4 @@ class D4():
     def stamp_number(self, stamp_number):
         bpy.ops.object.modifier_add(type='BOOLEAN')
         bpy.context.object.modifiers["Boolean"].object = self.face_objects[f'number{stamp_number}']#bpy.context.scene.objects[stamp_number]
-        bpy.ops.object.modifier_apply(apply_as='DATA', modifier="Boolean")
+        bpy.ops.object.modifier_apply(modifier="Boolean")

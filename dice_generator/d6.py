@@ -50,11 +50,11 @@ class D6():
         self.rotate_to_stamp_same_number_odd()
         self.stamp_number("1")
         self.rotate_to_stamp_same_number_odd()
-        bpy.ops.object.modifier_apply(apply_as='DATA', modifier="Boolean")
+        bpy.ops.object.modifier_apply(modifier="Boolean")
         self.stamp_number("5")
         self.rotate_to_stamp_same_number()
     
     def stamp_number(self, stamp_number):
         bpy.ops.object.modifier_add(type='BOOLEAN')
         bpy.context.object.modifiers["Boolean"].object = self.face_objects[f'number{stamp_number}']
-        bpy.ops.object.modifier_apply(apply_as='DATA', modifier="Boolean")
+        bpy.ops.object.modifier_apply(modifier="Boolean")
