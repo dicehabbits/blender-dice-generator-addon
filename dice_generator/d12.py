@@ -40,7 +40,7 @@ class D12():
 
     
     def stamp(self):
-        stamp_number("12")
+        self.stamp_number("12")
         self.rotate_to_stamp_pivote()
 
 
