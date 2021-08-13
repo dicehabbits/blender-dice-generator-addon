@@ -52,7 +52,7 @@ class D8():
 
 
         self.stamp_number("5")
-        rotate_to_stamp_same_number()
+        self.rotate_to_stamp_same_number()
         self.stamp_number("3")
         self.rotate_to_stamp_same_number()
         self.stamp_number("7")
